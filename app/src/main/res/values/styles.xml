@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/NewsAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Theme for the different news source article list pages -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="NewsAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Styles for the article ListView-->
+    <style name="ArticleListViewStyle">
+        <item name="android:divider">@color/colorAccent</item>
+        <item name="android:dividerHeight">4dp</item>
+    </style>
+
+    <!-- Styles for the article items -->
+    <style name="ArticleTitle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="ArticleAuthor">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingStart">12dp</item>
+    </style>
+    <style name="ArticleTimeQuantity">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingStart">12dp</item>
+    </style>
+    <style name="ArticlePublished">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="ArticleDescription">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+</resources>

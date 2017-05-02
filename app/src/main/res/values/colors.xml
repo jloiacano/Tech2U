@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#3D888C</color>
+    <color name="colorPrimaryDark">#2E696B</color>
+    <color name="colorAccent">#8C3D88</color>
+    <color name="backgroundGrey">#DADADA</color>
+
+    <color name="red">#DB3E4D</color>
+    <color name="blue">#3157A7</color>
+    <color name="peach">#F69179</color>
+    <color name="brown">#937365</color>
+    <color name="purple">#8C3D88</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="noNetColor">#FF0000</color>
+    <color name="noResultsColor">#000000</color>
+</resources>

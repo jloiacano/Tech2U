@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/article_listview"
+        style="@style/ArticleListViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/alternate_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- This is the ImageView to be used as a background if there is no net or no results -->
+        <ImageView
+            android:id="@+id/alternate_results_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/alternate_results_background"
+            android:layout_centerInParent="true" />
+
+        <!-- This is the TextView that will be shown if there are no search results -->
+        <TextView
+            android:id="@+id/alternate_results_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/noNetColor"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <Button
+            android:id="@+id/set_api_key_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alternate_results_textview"
+            android:layout_centerHorizontal="true"
+            android:text="@string/use_js_api_key"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/article_loading_spinner"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

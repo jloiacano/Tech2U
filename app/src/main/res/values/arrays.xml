@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_sort_by_top_label</item>
+        <item>@string/settings_sort_by_latest_label</item>
+        <item>@string/settings_sort_by_popular_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_sort_by_top_value</item>
+        <item>@string/settings_sort_by_latest_value</item>
+        <item>@string/settings_sort_by_popular_value</item>
+    </string-array>
+
+    <string-array name="settings_choose_sources_labels">
+        <item>@string/source_select_all</item>
+        <item>@string/source_ars_technica</item>
+        <item>@string/source_engadget</item>
+        <item>@string/source_techcrunch</item>
+        <item>@string/source_techradar</item>
+        <item>@string/source_tnw</item>
+        <item>@string/source_verge</item>
+    </string-array>
+
+    <string-array name="settings_choose_sources_values">
+        <item>@string/source_select_all_key</item>
+        <item>@string/source_ars_technica_key</item>
+        <item>@string/source_engadget_key</item>
+        <item>@string/source_techcrunch_key</item>
+        <item>@string/source_techradar_key</item>
+        <item>@string/source_tnw_key</item>
+        <item>@string/source_verge_key</item>
+    </string-array>
+
+</resources>

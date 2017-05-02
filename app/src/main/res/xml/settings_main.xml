@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <Preference
+        android:title="@string/settings_newsapi_title"
+        android:key="@string/settings_newsapi_key" />
+
+    <Preference
+        android:title="@string/settings_get_api_key_title"
+        android:key="@string/settings_get_api_key"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_enter_api_key"
+        android:inputType="textVisiblePassword"
+        android:key="@string/settings_api_key_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_api_key_title" />
+
+    <MultiSelectListPreference
+        android:defaultValue="@string/source_select_all"
+        android:entries="@array/settings_choose_sources_labels"
+        android:entryValues="@array/settings_choose_sources_values"
+        android:key="@string/multicheck_news_sources"
+        android:title="@string/settings_choose_sources_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_sort_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_sort_by_key"
+        android:title="@string/settings_sort_by_label" />
+
+</PreferenceScreen>

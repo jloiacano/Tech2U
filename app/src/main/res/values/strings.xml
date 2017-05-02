@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "Tech2U "><!ENTITY author "J Loiacano ">]>
+
+<resources>
+
+    <string name="app_name">&appname;</string>
+    <string name="title_activity_news_results">News Results</string>
+    <string name="title_http_query_results">http Query Results</string>
+
+    <!-- strings for each news source -->
+    <string name="source_select_all">VIEW ALL SOURCES</string>
+    <string name="source_ars_technica">Ars Technica</string>
+    <string name="source_engadget">Engadget</string>
+    <string name="source_techcrunch">TechCrunch</string>
+    <string name="source_techradar">TechRadar</string>
+    <string name="source_tnw">The Next Web</string>
+    <string name="source_verge">The Verge</string>
+
+    <!-- strings for activity_main.xml -->
+    <string name="ars_technica_main_logo">The Ars Technica Logo</string>
+    <string name="engadget_main_logo">The Engadget Logo</string>
+    <string name="techcrunch_main_logo">The TechCrunch Logo</string>
+    <string name="techradar_main_logo">The TechRadar Logo</string>
+    <string name="tnw_main_logo">The TNW Logo</string>
+    <string name="verge_main_logo">The Verge Logo</string>
+    <string name="settings_icon">the settings icon</string>
+    <string name="up_right_arrow_icon">an up right arrow icon</string>
+
+    <!-- string for multicheckbox news source selector key -->
+    <string name="multicheck_news_sources">multicheck_news_sources</string>
+
+    <!-- strings for each news source -->
+    <string name="source_select_all_key" translatable="false">all_sources_selected_key</string>
+    <string name="source_ars_technica_key" translatable="false">source_ars_technica_key</string>
+    <string name="source_engadget_key" translatable="false">source_engadget_key</string>
+    <string name="source_techcrunch_key" translatable="false">source_techcrunch_key</string>
+    <string name="source_techradar_key" translatable="false">source_techradar_key</string>
+    <string name="source_tnw_key" translatable="false">source_tnw_key</string>
+    <string name="source_verge_key" translatable="false">source_verge_key</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">&appname; Settings</string>
+
+    <!-- Settings API getter [CHAR LIMIT=NONE] -->
+    <string name="settings_newsapi_title">POWERED BY:</string>
+    <string name="settings_newsapi_key">newsapi_key</string>
+
+    <!-- Settings API getter [CHAR LIMIT=NONE] -->
+    <string name="settings_get_api_key_title">Get an API key</string>
+    <string name="settings_get_api_key">get_api_key</string>
+
+    <!-- Settings API setter [CHAR LIMIT=NONE] -->
+    <string name="settings_api_key_title">API Key</string>
+    <string name="settings_api_key_key">api_key</string>
+    <string name="settings_enter_api_key">Enter your newsapi.org API key</string>
+    <string name="settings_entered">Entered:</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_sort_by_label">Order By</string>
+    <string name="settings_sort_by_key" translatable="false">sortBy</string>
+    <string name="settings_sort_by_default" translatable="false">@string/settings_sort_by_top_value</string>
+
+    <!-- Label for order-by top option [CHAR LIMIT=20] -->
+    <string name="settings_sort_by_top_label">Top</string>
+    <string name="settings_sort_by_top_value" translatable="false">top</string>
+
+    <!-- Label for order-by latest option [CHAR LIMIT=20] -->
+    <string name="settings_sort_by_latest_label">Latest</string>
+    <string name="settings_sort_by_latest_value" translatable="false">latest</string>
+
+    <!-- Label for order-by popular option [CHAR LIMIT=20] -->
+    <string name="settings_sort_by_popular_label">Popular</string>
+    <string name="settings_sort_by_popular_value" translatable="false">popular</string>
+
+    <!-- Strings For Choose_sources Preference [CHAR LIMIT=30] -->
+    <string name="settings_choose_sources_label">Choose News Sources\nTo View</string>
+    <string name="settings_choose_sources_key" translatable="false">chooseSource</string>
+
+    <!-- Label for attribution in settings [CHAR LIMIT=NONE] -->
+    <string name="settings_attribution_back">Made possible by NewsAPI</string>
+
+    <!-- strings for the article_item.xml -->
+    <string name="article_image_description">The image that accompanies the article</string>
+    <string name="article_title">THE TITLE</string>
+    <string name="article_author">THE AUTHOR(S)-</string>
+    <string name="article_published_date">PUBLISHED DATE AND TIME</string>
+
+    <string name="Lorem_ipsum">Lorem ipsum dolor sit amet, mei ea ferri tation ullamcorper. An est assum iracundia. Id nam inani diceret veritus, nominati accusamus hendrerit in vis. Eos rebum dicant ex, has veniam contentiones at, vel te delicata philosophia.
+Consul complectitur mei ne, nemore facilis democritum vis ne. Nam ad perpetua democritum, nam in diam altera putant. Et nobis efficiendi eum. Impedit moderatius cu est, id quas nullam perfecto sed, eros quidam vis te.
+Platonem repudiare reprimique quo id. Error quaestio euripidis nec ei. Vim ei antiopam ullamcorper. Vitae audire cotidieque et nam, pri euismod appellantur an, case sonet volutpat nec at. Etiam suscipiantur in vim, ea aliquando repudiandae eam.
+Te nulla nusquam lobortis sea. Ex per brute exerci maiorum. Eos id harum verterem elaboraret, at iudico tritani his. No omnes deleniti eos. Ex pri adhuc falli. An ius tota veniam phaedrum.
+Sea id libris delicata, ea dolore copiosae adipisci mea. Soluta iracundia vix et. Vix ad agam graece antiopam, mea eu velit primis eloquentiam, pro ex nusquam fuisset. Per ad novum probatus, in per sale appetere, ex nusquam adipisci vis. Et choro ponderum torquatos eam, mei an eius vitae omnesque.
+Has illum velit everti ei, ex elitr recusabo quo, autem sententiae scripserit an nam. Quo virtute signiferumque ei, ex nam appetere oportere. Et pri partem verterem. Stet lucilius ea nec, animal veritus dolores ei vel, vim ferri latine ei.
+Per exerci possit ad. Veritus antiopam similique te pri, vel dicit deserunt liberavisse at. Et virtute indoctum qui, eu elit sonet adolescens qui. Mea ex debitis euripidis consetetur. Omnium ornatus patrioque quo ne, no nam ceteros partiendo, cum animal facilis probatus ad. Te duo decore nonumes.
+Suas diam cu has, corpora abhorreant mel ne. Pri velit epicuri ne, sit ex soluta splendide. Eam dignissim voluptatibus ut, quod partem nec ad. Ei usu malis omnium, no molestie laboramus mel.
+Ex vix sale facete percipit, no quidam phaedrum ius. Ne pro vidit errem facilis, sit in tollit volumus forensibus. Sed ut quod nihil reprimique, pri insolens expetenda instructior ea. Ullum menandri hendrerit ea has, has ne deseruisse referrentur. Ex vix clita percipit insolens, qui facer theophrastus consectetuer at.
+No ubique mollis pri. Ut alia repudiandae sea, ius et soleat sensibus, equidem graecis splendide sea et. Agam dicat eloquentiam mea in, nominavi patrioque adversarium an sea. Et has errem eligendi reformidans, nulla bonorum ne ius.
+    </string>
+
+    <!-- Strings for alternative search results page -->
+    <string name="no_net">No internet connection.\nMake sure your WiFi is turned on\n
+    and Airplane Mode is turned off.</string>
+    <string name="no_articles">No articles showing up?!?!\nCheck your settings.\n\n
+    Make sure you registered for your NewsAPI key,\nand entered it.\nFor you, kind reviewer, click below
+        to use mine. Use it responsibly. :-)</string>
+    <string name="use_js_api_key">Click to set API key</string>
+    <string name="js_api_key">d4ee4ac9969b4a5f8de1586f70cd40c1</string>
+    <string name="alternate_results_background">A background image for the results page if there
+    is no internet connection or if there are no search results</string>
+    <string name="null_results">articles was null or empty</string>
+    <string name="copy_api_toast">API copied to clipboard.\nEnter it into the API Key Setting</string>
+    <string name="go_to_settings_1">Go to Settings</string>
+    <string name="go_to_settings_2">in the top right coner</string>
+    <string name="go_to_settings_3">to:</string>
+    <string name="go_to_settings_api">SET YOUR API KEY</string>
+    <string name="go_to_settings_sources">CHOOSE NEWS SOURCES</string>
+
+    <!-- String for the attribution page -->
+    <string name="attribution">All articles provided by the use of the wonderful API at</string>
+    <string name="attribution_logo">NewsAPI Logo"</string>
+
+    <!-- time formatter strings -->
+    <string name="yesterday">Yesterday</string>
+    <string name="day_ago">day ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="minute_ago">minute ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="no_resource">NO RESOURCE</string>
+
+</resources>
